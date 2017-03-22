@@ -21,7 +21,7 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("T&E Know Who Database v.0.1");
+        response.getWriter().print("Know Who Database v.0.1");
     }
 
 }
